@@ -4,7 +4,7 @@ pkgdesc="ROS - This package contains common nodelet tools such as a mux, demux a
 url='https://wiki.ros.org/nodelet_topic_tools'
 
 pkgname='ros-noetic-nodelet-topic-tools'
-pkgver='1.10.2'
+pkgver='1.11.0'
 arch=('i686' 'x86_64' 'aarch64' 'armv7h' 'armv6h')
 pkgrel=1
 license=('BSD')
@@ -36,7 +36,7 @@ depends=(
 
 _dir="nodelet_core-${pkgver}/nodelet_topic_tools"
 source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros/nodelet_core/archive/${pkgver}.tar.gz")
-sha256sums=('9b49a06721ca23c76965937f1a5673cdb6250384d9bd89c1b0fdef5ecd2b83b2')
+sha256sums=('c5f4f17a2165f7201964c985019d41e7c4664307f6bc6ec70a48c97d4a6166f9')
 
 build() {
 	# Use ROS environment variables.
